@@ -7,6 +7,8 @@ Kshitij Aggarwal
 
 A basic ROS2 package that implements obstacle avoidance TurtleBot using State design Pattern.
 
+NOTE: This package assumes that TURTLEBOT package is already installed in any of the other ROS2 overlays on the system.
+
 # Build instructions
 
 1. Create a workspace, with the package "walker" in the src/
@@ -36,3 +38,6 @@ a. record_bag - For enabling/disabling rosbag recording from the launch file.
 To execute the ros_bag recorder, simply pass the argument "enable_rosbag" as "true".
 
 To replay the rosbag, run: ros2 bag play "name_of_your_rosbag_found_in_the_root_directory"
+
+NOTE: A sample rosbag can be found in `results/`
+
